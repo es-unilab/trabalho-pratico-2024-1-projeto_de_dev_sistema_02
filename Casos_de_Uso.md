@@ -13,3 +13,18 @@
             
             ◦ **Fluxo Alternativo**: 
             1. Se algum campo obrigatório não for preenchido, o sistema exibe uma mensagem de erro e solicita a correção. 
+
+   **2.Busca e Filtragem de Questões**     //CAURYA
+   
+               ◦ **Ator Principal*: Professor
+                 ◦ **Pré-condições*: O professor deve estar autenticado no sistema. 
+                 
+        ◦ **Fluxo Principal**: 
+            1. O professor acessa a página de busca de questões. 
+            2. O professor seleciona os filtros desejados (assunto, dificuldade, tipo). 
+            3. O professor inicia a busca. 
+            4. O sistema exibe a lista de questões que correspondem aos filtros aplicados. 
+            
+        ◦ **Fluxo Alternativo**: 
+            1. Se nenhum filtro for aplicado, o sistema exibe todas as questões cadastradas. 
+   
