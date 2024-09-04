@@ -24,7 +24,7 @@
             2. O professor seleciona os filtros desejados (assunto, dificuldade, tipo).
             
       ◦**Fluxo Alternativo**: 
-            1. Se nenhum filtro for aplicado, o sistema exibe todas as questões cadastradas.
+            1. Se nenhum filtro for aplicado, o sistema vai exibir todas as questões cadastradas.
             
    **Geração De Provas**    //Ednei
    
