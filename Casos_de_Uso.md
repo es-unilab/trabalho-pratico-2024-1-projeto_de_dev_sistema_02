@@ -26,7 +26,7 @@
       ◦**Fluxo Alternativo**: 
             1. Se nenhum filtro for aplicado, o sistema vai exibir todas as questões cadastradas.
             
-   **Geração De Provas**    //Ednei
+   **Geração De Provas**    //Edney
    
     ◦ **Pré-condições*: O professor deve estar autenticado no sistema. 
                    
