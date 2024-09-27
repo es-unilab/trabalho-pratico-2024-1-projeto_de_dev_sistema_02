@@ -1,6 +1,6 @@
 **CASOS DE USO**
 
-  **1.Cadastro de Questões**  //BINHANFISSANA
+  **1.Cadastro de Questões**  //CAURYA
   
         ◦ **Ator Principal*: Professor 
         ◦ **Pré-condições*: O professor deve estar autenticado no sistema. 
@@ -14,7 +14,7 @@
             ◦ **Fluxo Alternativo**: 
             1. Se algum campo obrigatório não for preenchido, o sistema exibe uma mensagem de erro e solicita a correção. 
 
-   **2.Busca e Filtragem de Questões**     //CAURYA
+   **2.Busca e Filtragem de Questões**     //BINHANFISANA
    
            ◦**Ator Principal*: Professor
            ◦**Pré-condições*: O professor deve estar autenticado no sistema. 
