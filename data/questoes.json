@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "assunto": "Matemática",
+        "categoria": "Aritmética",
+        "dificuldade": "Fácil",
+        "tipo": "Múltipla escolha",
+        "enunciado": "Qual é a soma de 2 + 2?",
+        "opcoes": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "resposta_correta": "4",
+        "explicacao": "A soma de 2 e 2 é igual a 4."
+    },
+    {
+        "id": 2,
+        "assunto": "História",
+        "categoria": "Revoluções",
+        "dificuldade": "Média",
+        "tipo": "Dissertativa",
+        "enunciado": "Explique a importância da Revolução Francesa.",
+        "resposta_correta": "A Revolução Francesa foi um marco na luta por direitos civis e igualdade.",
+        "explicacao": "Ela inspirou movimentos democráticos ao redor do mundo e trouxe conceitos de liberdade e igualdade."
+    },
+    {
+        "id": 3,
+        "assunto": "Ciências",
+        "categoria": "Química",
+        "dificuldade": "Difícil",
+        "tipo": "Verdadeiro ou falso",
+        "enunciado": "A água é composta por dois átomos de hidrogênio e um de oxigênio.",
+        "resposta_correta": "Verdadeiro",
+        "explicacao": "A fórmula química da água é H₂O, que confirma a composição de dois átomos de hidrogênio e um de oxigênio."
+    },
+    {
+        "id": 4,
+        "assunto": "Literatura",
+        "categoria": "Romance Brasileiro",
+        "dificuldade": "Fácil",
+        "tipo": "Múltipla escolha",
+        "enunciado": "Quem escreveu 'Dom Casmurro'?",
+        "opcoes": [
+            "Machado de Assis",
+            "Jorge Amado",
+            "Clarice Lispector",
+            "Graciliano Ramos"
+        ],
+        "resposta_correta": "Machado de Assis",
+        "explicacao": "Dom Casmurro é um dos romances mais famosos de Machado de Assis, publicado em 1899."
+    },
+    {
+        "id": 5,
+        "assunto": "Geografia",
+        "categoria": "Capitais",
+        "dificuldade": "Média",
+        "tipo": "Múltipla escolha",
+        "enunciado": "Qual é a capital da França?",
+        "opcoes": [
+            "Berlim",
+            "Madrid",
+            "Paris",
+            "Lisboa"
+        ],
+        "resposta_correta": "Paris",
+        "explicacao": "Paris é a capital da França e é conhecida por sua rica história e cultura."
+    },
+    {
+        "id": 6,
+        "assunto": "Biologia",
+        "categoria": "Ecologia",
+        "dificuldade": "Difícil",
+        "tipo": "Verdadeiro ou falso",
+        "enunciado": "As plantas realizam a fotossíntese para obter energia.",
+        "resposta_correta": "Verdadeiro",
+        "explicacao": "A fotossíntese é o processo pelo qual as plantas convertem luz solar em energia."
+    }
+]
