@@ -2,3 +2,25 @@
 
  ![Diagrama UML ### História de usuário e Casos de Uso] 1°( https://www.planttext.com/api/plantuml/png/VLJBZjf04BpFLxJ88SbXbPU4b1L2QrX8zX1281mYHOewdiQorfv1FUFDFfIloI4ViCeNy6EPiSV61XOZsN9tLRcwtER2M6HRv9amrwdQ86CE6uolCQ6blSi8c6ABAice1IWCnMW87WIuO-JW2Uj2oR7EDCEpzNl_gtgQ9N6eltxNxyj-MO-OzQ-gFCeSlonEjRBBz9xWpTlTVMdYfywa-2t4SxYaTQhIxT_j7mrI6uYiPZ82OtU5tfprcepHt0CqqDpLxKZcZcmiemoGJiNhVze-oY9pmbB3qZKeHn7oW5veWYGOeqH7qxqGGXr9BpIGOKwS5CgY-QvUZAFLublqidpcQloZPdUf2xf9ZICIH1lMDss9cbX1jC_YcAlFdA1Axx7Cvy3Qg30nElLfcZc32UMUygKWOxV_oBiSNSq-HhFfrJAQxRoMhAvG_PYz6T5IejdNNtt5f23aHgHXT8KcChN7ngpgJqqvz-6OW_4-46DOZ1hZN4saehl6XyV4k9Vxv7QZkVHHa-QNquPITwlzMv1RrrGhp4bPjoRkp1Is4FnQ6Byx12kZHRD_S7OsRBzsE7SwcBay3Z7LIpe1s8L_0XI2FO48IPmKgNFPOKJdWwc1OIlRkAUIwWJKih4t_M2GgZWh90s7Hr0jOtl0YdyOzs10jvQKT2XnuQx-3q-8_m00 ) // Binhanhfisana
   
+** O diagrama a cima é  um Diagrama de Casos de Uso (Use Case Diagram), que é um dos principais tipos de diagramas UML.
+Ele serve para representar as interações entre os atores (usuários
+ou sistemas externos) e o sistema, com foco nas funcionalidades que o sistema oferece aos seus usuários.**
+
+O que um Diagrama de Casos de Uso (Use Case Diagram) apresenta:
+Atores:
+
+Representam as entidades (usuários ou sistemas externos) que interagem com o sistema. No seu caso, temos:
+Professor: Interage com o sistema para realizar atividades como cadastro de questões, organização de questões, e geração de provas.
+Administrador: Tem a função de revisar e aprovar as questões cadastradas.
+Casos de Uso:
+
+São as funcionalidades ou serviços que o sistema oferece aos atores. Exemplo:
+Cadastrar Perguntas: Funcionalidade que permite ao professor cadastrar questões no sistema.
+Gerar Provas: Funcionalidade que permite ao professor gerar provas a partir de questões selecionadas.
+Revisar e Aprovar Perguntas: Funcionalidade destinada ao administrador para garantir a qualidade das questões no sistema.
+Relações:
+
+Associação: Representa a interação entre o ator e o caso de uso (como o professor realizando o cadastro de questões).
+Inclusão (<<include>>) e Extensão (<<extend>>) de Casos de Uso:
+<<include>>: Usado quando um caso de uso sempre inclui a execução de outro caso de uso. Exemplo: "Gerar Provas" inclui "Exportar Provas".
+<<extend>>: Usado quando um caso de uso pode, opcionalmente, ser estendido por outro caso de uso. Exemplo: "Buscar Questões" pode ser estendido por "Cadastrar Questões" para novos registros.
