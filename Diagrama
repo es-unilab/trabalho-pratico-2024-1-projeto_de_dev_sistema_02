@@ -3,8 +3,8 @@
 
  ** 1°![Diagrama UML ### Casos de Uso] 1°( https://www.planttext.com/api/plantuml/png/VLJBZjf04BpFLxJ88SbXbPU4b1L2QrX8zX1281mYHOewdiQorfv1FUFDFfIloI4ViCeNy6EPiSV61XOZsN9tLRcwtER2M6HRv9amrwdQ86CE6uolCQ6blSi8c6ABAice1IWCnMW87WIuO-JW2Uj2oR7EDCEpzNl_gtgQ9N6eltxNxyj-MO-OzQ-gFCeSlonEjRBBz9xWpTlTVMdYfywa-2t4SxYaTQhIxT_j7mrI6uYiPZ82OtU5tfprcepHt0CqqDpLxKZcZcmiemoGJiNhVze-oY9pmbB3qZKeHn7oW5veWYGOeqH7qxqGGXr9BpIGOKwS5CgY-QvUZAFLublqidpcQloZPdUf2xf9ZICIH1lMDss9cbX1jC_YcAlFdA1Axx7Cvy3Qg30nElLfcZc32UMUygKWOxV_oBiSNSq-HhFfrJAQxRoMhAvG_PYz6T5IejdNNtt5f23aHgHXT8KcChN7ngpgJqqvz-6OW_4-46DOZ1hZN4saehl6XyV4k9Vxv7QZkVHHa-QNquPITwlzMv1RrrGhp4bPjoRkp1Is4FnQ6Byx12kZHRD_S7OsRBzsE7SwcBay3Z7LIpe1s8L_0XI2FO48IPmKgNFPOKJdWwc1OIlRkAUIwWJKih4t_M2GgZWh90s7Hr0jOtl0YdyOzs10jvQKT2XnuQx-3q-8_m00 ) // Binhanhfisana
  ** 2° [Diagrama HML ### Hisoria de Classes] => (https://www.planttext.com/api/plantuml/png/hLJRRjGm47ttLup2GnTeImlIIaHerTAgJpoKomyCyMnarV4iOwU28hw61yHtx8_LYPrsatRfFf18aNtco7DyV9mJ7r12srZbhunReM03bKNluQU2-Bp7wgeMRfq-Oyi2pvPlkpVLM3H9ne_UpETwtkCNxC9dSqDm_Ff-7dvOWgzijVgbr1wSqz8ui_wp_isWqSDPrvEyIhsBI-4bUSzIP1qlZIx1k90cZXigmGSnhau8DMZi6B9S6pTxNiQkR1DKOUmL1EMIf6vTmDctbg83NCB7D1ZHMMfqvWOb5__D9ct2ZjIQEWt2rra0ao_XW_7XNMOlzY6Oq5eUjhGVDnz7RTLJ4nQNxDV8xR-lMCAmxAhxvlhGEXgVxJtLJNI_SqB_Ruk5her7EUq5FEtplQPSU5nDPCHbUDnTcwMfMgjHJvG6ivfGgnX1QlK43LWFlYTuCOd9U6iOMhHT76OFrVT6FwvzV92PyE0m4xub3Hkf6KkwE_JpYqrHU_29B5Q67JOKVVCGlqAmST7kRXWKnmKS72oWE3eyV54C1mGb33RimXskoYxS_g9i9_PMHbgttQTPsG6bHfdUtXpxOBvACLLgA4puNx2Et1N7s1cbKg_jFiLmhVysIfsGqzslLAbR)
-
-
+  **3°  [Diagrama HML ### Hisoria de Classes]
+#1°
 ** O diagrama a cima é  um Diagrama de Casos de Uso (Use Case Diagram), que é um dos principais tipos de diagramas UML.
 Ele serve para representar as interações entre os atores (usuários
 ou sistemas externos) e o sistema, com foco nas funcionalidades que o sistema oferece aos seus usuários.**
@@ -28,3 +28,40 @@ Inclusão (<<include>>) e Extensão (<<extend>>) de Casos de Uso:
 <<include>>: Usado quando um caso de uso sempre inclui a execução de outro caso de uso. Exemplo: "Gerar Provas" inclui "Exportar Provas".
 <<extend>>: Usado quando um caso de uso pode, opcionalmente, ser estendido por outro caso de uso. Exemplo: "Buscar Questões" 
 pode ser estendido por "Cadastrar Questões" para novos registros.
+
+#######################################################################################################################
+#2°
+##Classes:
+
+Professor: Representa o professor, com métodos para cadastro, organização, edição de questões, geração de provas e exportação de provas.
+Administrador: Representa o administrador, que tem métodos para revisar e aprovar questões.
+Questao: Representa uma questão, com atributos como assunto, dificuldade, tipo, conteúdo e tags. A classe também possui métodos
+para cadastrar e atualizar questões.
+Prova: Representa uma prova, com atributos como título, instruções e as questões associadas. Tem métodos para gerar a prova e exportar em PDF.
+
+##Relacionamentos:
+
+Associação: Relacionamentos entre classes, como um professor "cadastra", "organiza" e "edita" questões, e gera e exporta provas.
+Composição: A relação entre a classe Prova e Questao, onde uma prova pode conter várias questões.
+Como este diagrama reflete as funcionalidades:
+O diagrama de classes reflete as entidades essenciais (Professor, Administrador, Questao e Prova) e como elas interagem.
+Os métodos em cada classe correspondem às operações que podem ser realizadas, como cadastrar questões ou gerar provas.
+
+###############################################################################################################################
+#3°  [Diagrama HML ### Diagrama de Objetos]
+Diagrama de Objetos:
+Objetos:
+
+Professor João: Representa uma instância do professor no sistema. Atributos como id, nome e email estão preenchidos com valores específicos de João.
+Administrador Ana: Representa uma instância do administrador. Atributos como id, nome e email são específicos de Ana.
+Questão 1 e Questão 2: Representam instâncias de questões cadastradas, cada uma com atributos específicos como id, assunto, dificuldade, tipo, 
+conteúdo e tags.
+Prova Final: Representa uma instância de prova com atributos como id, titulo e instruções.
+Relacionamentos:
+
+Associação: O professor João cadastra as questões, e o administrador Ana aprova a questão 1. Ambas as questões são incluídas na "Prova Final".
+Como o diagrama de objetos se difere do de classes:
+O diagrama de objetos usa instâncias reais de objetos, enquanto o diagrama de classes representa as classes, ou seja, a estrutura do sistema.
+Ele também mostra como os objetos interagem no contexto de uma execução do sistema, como a associação entre o Professor João e as Questões 
+que ele cadastra.
+
