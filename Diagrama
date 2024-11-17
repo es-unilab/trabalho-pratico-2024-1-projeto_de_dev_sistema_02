@@ -25,4 +25,5 @@ Relações:
 Associação: Representa a interação entre o ator e o caso de uso (como o professor realizando o cadastro de questões).
 Inclusão (<<include>>) e Extensão (<<extend>>) de Casos de Uso:
 <<include>>: Usado quando um caso de uso sempre inclui a execução de outro caso de uso. Exemplo: "Gerar Provas" inclui "Exportar Provas".
-<<extend>>: Usado quando um caso de uso pode, opcionalmente, ser estendido por outro caso de uso. Exemplo: "Buscar Questões" pode ser estendido por "Cadastrar Questões" para novos registros.
+<<extend>>: Usado quando um caso de uso pode, opcionalmente, ser estendido por outro caso de uso. Exemplo: "Buscar Questões" 
+pode ser estendido por "Cadastrar Questões" para novos registros.
