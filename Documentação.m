@@ -42,8 +42,7 @@ Facilitar o processo de elaboração e organização de provas, otimizando o tem
 4. Estrutura do Sistema
 4.1 Estrutura de Diretórios
 A arquitetura modular garante clareza e organização, facilitando futuras expansões:
-bash
-Copiar código
+
 /sistema_de_questoes
 │
 ├── /views                # Arquivos HTML das páginas do sistema
