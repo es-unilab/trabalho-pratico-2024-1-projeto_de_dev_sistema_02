@@ -182,15 +182,20 @@
             });
     });
 
+ 
+
     document.getElementById('confirmar-selecao').addEventListener('click', function() {
         if (questoesSelecionadas.length > 0) {
             alert('Você selecionou ' + questoesSelecionadas.length + ' questão(ões).');
-            console.log('Questões selecionadas:', questoesSelecionadas);
+            // Redireciona para a página de geração de prova com as IDs das questões selecionadas
+            const queryParams = questoesSelecionadas.join(',');
+            window.location.href = `gerar-prova.html?ids=${queryParams}`;
         } else {
             alert('Nenhuma questão selecionada.');
         }
-        
     });
+        
+   
 </script>
 
 </body>

@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Rota para a página inicial (index.html)
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'pages', 'index.html'));
+    res.sendFile(path.join(__dirname, 'pages', 'Index.html'));
 });
 
 // Rota para a página de busca de questões

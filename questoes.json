@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "assunto": "Matemática",
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla escolha",
+    "enunciado": "Qual é o resultado de 2 + 2?"
+  },
+  {
+    "id": "2",
+    "assunto": "História",
+    "dificuldade": "Médio",
+    "tipo": "Dissertativa",
+    "enunciado": "Descreva a Revolução Francesa."
+  },
+  {
+    "id": "3",
+    "assunto": "Geografia",
+    "dificuldade": "Difícil",
+    "tipo": "Múltipla escolha",
+    "enunciado": "Qual é a capital da Austrália?"
+  },
+  {
+    "id": "3653e333-8d68-4bf7-875e-e5ee5c30c26c",
+    "assunto": "Biologia",
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "asca"
+  },
+  {
+    "id": "7e5778ca-8b99-4363-aef5-535c94cf0dd7",
+    "assunto": "qeq",
+    "dificuldade": "Fácil",
+    "tipo": "Múltipla Escolha",
+    "enunciado": "r"
+  }
+]
